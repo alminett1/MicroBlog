@@ -13,27 +13,29 @@ This is a simple blog app I built for my ASP.NET class using Razor Pages. It let
 
 ## Built with
 
-- ASP.NET Core Razor Pages (.NET 10)
+- ASP.NET Core Razor Pages (.NET 9)
 - System.Text.Json to read/write the posts file
 
 ## How to run it
+```
 git clone https://github.com/alminett1/MicroBlog.git
 cd MicroBlog
 dotnet restore
 dotnet run
+```
 
 Then open whatever URL shows up in the terminal (something like `https://localhost:5031`).
 
 ## Screenshots
 
 ### Home page
-![Index page](screenshots/index.png)
+![Index page](Screenshots/index.png)
 
 ### Create post form
-![Create page](screenshots/create.png)
+![Create page](Screenshots/create.png)
 
 ### Single post view
-![Details page](screenshots/details.png)
+![Details page](Screenshots/details.png)
 
 ## Where things live
 
